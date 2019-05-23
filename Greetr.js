@@ -134,6 +134,4 @@
     // attach our Greetr to the global object, and provide a shorthand '$G' for ease our poor fingers
     global.G$ = global.Greeter = Greeter;
 
-    Greeter();
-
 }(window, jQuery));
